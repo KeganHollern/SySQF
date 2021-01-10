@@ -26,6 +26,7 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Oo]ut
 
 *.tlog
 [Rr]el[Ww]ith[Dd]eb[Ii]nfo/
@@ -306,8 +307,8 @@ __pycache__/
 *.so
 prog
 DISCORD.TOKEN
-sqfvm
-libsqfvm.*
+sysqf
+libsysqf.*
 .directory
 
 # ECLIPSE
@@ -326,7 +327,7 @@ compile_commands.json
 CTestTestfile.cmake
 
 /DLL2
-/sqfvm-cpp/DLL2
+/sysqf-cpp/DLL2
 /tclap-1.2.2/config
 /tclap-1.2.2/docs
 /tclap-1.2.2/examples

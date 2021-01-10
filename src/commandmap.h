@@ -34,6 +34,7 @@ namespace sqf
 		void initosspecificcmds();
 		//--- SYSQF
 		void initfilesystemcmds();
+		void initsystemcmds();
 
 	public:
 		void init()
@@ -53,6 +54,7 @@ namespace sqf
 			initunimplemented();
 			//---- SYSQF
 			initfilesystemcmds();
+			initsystemcmds();
 		}
 
 		commandmap() {}

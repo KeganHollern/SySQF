@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sysqf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "libsysqf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libsysqf-Debug-2f4e01bc99ae35e96f27.json",
+					"name" : "libsysqf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slibsysqf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slibsysqf-Debug-e18e9c8335333cd98bf5.json",
+					"name" : "slibsysqf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slibsysqf_nc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slibsysqf_nc-Debug-d00b89dd96040d29f9c0.json",
+					"name" : "slibsysqf_nc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sysqf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sysqf-Debug-4356cc2914bf1c43be83.json",
+					"name" : "sysqf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/Software Projects/SySQF/old_sqfvm/vm/out/build/x64-Debug",
+		"source" : "G:/Software Projects/SySQF/old_sqfvm/vm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

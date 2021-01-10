@@ -307,7 +307,7 @@ __pycache__/
 *.so
 prog
 DISCORD.TOKEN
-sysqf
+# sysqf
 libsysqf.*
 .directory
 

@@ -35,6 +35,7 @@ namespace sqf
 		//--- SYSQF
 		void initfilesystemcmds();
 		void initsystemcmds();
+		void initjsoncmds();
 
 	public:
 		void init()
@@ -55,6 +56,7 @@ namespace sqf
 			//---- SYSQF
 			initfilesystemcmds();
 			initsystemcmds();
+			initjsoncmds();
 		}
 
 		commandmap() {}
